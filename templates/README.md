@@ -54,4 +54,14 @@ CSS REVIEW
 	}
 
 
- style="background-color:c0c0c0;border-style:inset;border-width:thick">
+TEMPLATES TO CREATE:
+	. Home page
+	. Login page
+	. Create account page
+	. Manager page
+	. Order page --> Confirmation page
+	. Register drone page
+	. view drones page
+
+
+
