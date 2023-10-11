@@ -55,13 +55,10 @@ CSS REVIEW
 
 
 TEMPLATES TO CREATE:
-	. Home page
-	. Login page
-	. Create account page
-	. Manager page
+	. Home page / landing page
+	. Login page --> (create account page / home page) --> (home page / admin page)
 	. Order page --> Confirmation page
-	. Register drone page
-	. view drones page
+	. drones page --> register drones page --> drones page
 
 
 
