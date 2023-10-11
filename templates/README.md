@@ -54,11 +54,26 @@ CSS REVIEW
 	}
 
 
-TEMPLATES TO CREATE:
-	. Home page / landing page
+TEMPLATE NAVIGATION ORDER
+	. Landing page --> Login page
 	. Login page --> (create account page / home page) --> (home page / admin page)
 	. Order page --> Confirmation page
 	. drones page --> register drones page --> drones page
+
+	
+	       Home Page Header: Home, Order, Drones, Login/Account --
+	    Account Page Header: Home, Order, Drones --
+	      Login Page Header: Home, Order, Drones --
+     Create Account Page Header: Home, Order, Drones -- 
+ 	      Admin Page Header: Home, Order, Admin, Account --
+ 	      Order Page Header: Home, Order, Drones, Account --
+       Confirmation Page Header: Home, Order, Drones, Account --
+             Drones Page Header: Home, Order, Drones, Account
+Drones Registration Page Header: Home, Order, Drones, Account
+
+
+
+
 
 
 
