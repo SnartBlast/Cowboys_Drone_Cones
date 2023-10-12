@@ -1,5 +1,4 @@
 
-
 body {
 	margin: 0px;
 	background-color:008080;
@@ -9,15 +8,15 @@ body {
 div.page-container {
 	margin: 20px;
 	background-color: #c0c0c0;
-	border-style: inset;
-	border-width: thick;
+	border-style: outset;
+	border-width: 4px;
 
 }
 
 .topnav {
   overflow: hidden;
   background-color: #c0c0c0;
-  border-style: inset;
+  border-style: outset;
   border-width: thick;
 }
 
@@ -25,16 +24,15 @@ div.page-container {
 	color: black;
 	float: left;
 	text-align: center;
-	padding: 15px;
-	text-decoration: underline;
+	padding: 15px;	
+	text-decoration: none;
 	font-family: sans-serif;
 	font-size: 20px;
 }
 
 .topnav a:hover {
-  background-color: #8c8f93;
-  color: white;
-  border-style: outset;
+	background-color: #cfcfcf;
+	color: white;
 }
 
 .topnav a:active {
@@ -57,14 +55,19 @@ div.page-container {
 
 .left {
 	width: 25%;
+	background-color: #dbdbdb;
+	padding: 4px;
+	border-style: inset;
 }
 
 .middle {
 	width: 25%;
+	background-color: white;
 }
 
 .right {
 	width: 25%;
+	background-color: white;
 }
 
 .row:after {
@@ -78,15 +81,16 @@ div.page-container {
 }
 
 .margin {
-	margin: 10px;
+	padding: 10px;
+	background-color: white;
 }
 
 .bar {
 	background-color: #000083;
 	color: white;
-	padding: 3px;
+	padding: 4px;
 	font-family: sans-serif;
-	font-size: 13px;
+	font-size: 10px;
 }
 
 .pad {
@@ -97,12 +101,10 @@ div.page-container {
 
 a.order {
 	margin: 30px;
-	margin-top: 30px;
 	padding: 5px;
 	background-color: white;
 	color: grey;
 	border-style: outset;
-/*	border-width: thick; */
 	font-family: sans-serif;
 	font-size: 15px;
 }
@@ -113,6 +115,29 @@ a.order:hover {
 }
 
 
+div.outer-border {
+	background-color: #dbdbdb;
+	padding: 4px;
 
+}
 
+div.inner-border {
+	background-color: white;
+	padding: 10px;
+	border-style: inset;
+	border-width: 2px;
+	
+}
+
+.baricon {
+	position: fixed;
+	right: 15px;
+	top: 7px;
+}
+
+.peopleicon {
+	position: fixed;
+	left: 15px;
+	bottom: 15px;
+}
 
