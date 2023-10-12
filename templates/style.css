@@ -44,4 +44,49 @@ div.page-container {
 }
 
 
+/* Column identifiers for making horizontal columns */
+.column {
+	float: left;
+	margin: 20px;
+	background-color: #c0c0c0;
+	border-style: inset;
+	border-width: thick;
+
+
+}
+
+.left {
+	width: 25%;
+}
+
+.middle {
+	width: 25%;
+}
+
+.right {
+	width: 25%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.spacer {
+	padding: 10px;
+}
+
+.shift {
+	margin: 20px;
+}
+
+
+
+
+
+
+
+
+
 
